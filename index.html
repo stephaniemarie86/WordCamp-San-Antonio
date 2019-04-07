@@ -10,14 +10,60 @@
 
     <title>WordCamp San Antonio</title>
   </head>
-  <body>
-    <h1>Hello, world!</h1>
+  <body data-spy="scroll" data-target=".navbar" id="home">
+	  
+	<!--navbar-->
+	  
+	<nav class="navbar navbar-expand-lg navbar-light bg-light fixed-top">
+		<div class="container">
+			<a class="navbar-brand order-1 mr-0" href="#" target="_blank">Presented by NVC</a>
+			
+			<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+				<span class="navbar-toggle-icon"></span>
+			</button>
+			
+			<div class="collapse navbar-collapse" id="navbarSupportedContent">
+				<ul class="navbar-nav mr-auto">
+					<li class="nav-item">
+					<a class="nav-link" href="#home">Home<span class="sr-only">(current)</span></a>
+					</li>
+					<li class="nav-item">
+					<a class="nav-link" href="#about">About</a>
+					</li>
+					<li class="nav-item">
+					<a class="nav-link" href="#speakers">Speakers</a>
+					</li>
+					<li class="nav-item">
+					<a class="nav-link" href="#schedule">Schedule</a>
+					</li>
+				</ul>
+			</div>
+		</div>	  
+	  </nav>  
+	  
+	<!--/navbar-->  
+	  
+	<!--jumbotron-->
+	
+	<div class="jumbotron jumbotron-fluid">
+  		<div class="container text-sm pt-5 bg-info">
+    		<h1 class="display-4">WordCamp San Antonio</h1>
+    		<p class="lead">A One-day Conference About WordPress</p>
+			<div class="mt-5">
+				<button type="button" class="btn btn-secondary btn-lg" data-toggle="modal" data-target="#register">Register Now</button>
+				<a class="btn btn-light btn-lg" href="#speakers">See Speakers</a>
+			</div>
+  		</div>
+	</div>  
+	  
+	<!--/jumbotron--> 
 	  
 	<div class="container pt-4">
+		
 		<!--about-->
 		<div class="row">
 			<div class="col-lg order-lg-2">
-				<h3 class="mb-4">About WordCamp</h3>
+				<h3 class="mb-4" id="about">About WordCamp</h3>
 				<img class="img-fluid rounded" src="images/san_antonio_skyline.jpg" alt="Photo of San Antonio, Texas skyline">
 				<p>The great city of San Antonio, Texas will be the host city for the WordCamp!</p>
 				<p>Explore the future of WordPress with a lineup of industry professionals. Discover new techniques to advance yuor career as a web desinger.</p>
@@ -30,27 +76,150 @@
 			</div>
 			<div class="col-lg order-lg-3">
 				<h3 class="mb-4">What You'll Learn</h3>
-				<ul>
-				<li><strong>WordPress 5</strong>: New Gutenberg editor</li>
-				<li><strong>WooCommerce</strong>: E-commerece platform</li>
-				<li><strong>Hosting</strong>: Managed web hosting</li>
-				<li><strong>Themes</strong>: Creating your theme</li>
-				<li><strong>Plugins</strong>: Develop your plugin</li>
-				<li><strong>Content</strong>: Writing and Podcasts</li>
-				</ul>
+				<div class="list-group">
+					<a href="#" class="list-group-item list-group-item-action"><strong>WordPress 5</strong>: New Gutenberg editor</a>
+					<a href="#" class="list-group-item list-group-item-action"><strong>WooCommerce</strong>: E-commerece platform</a>
+					<a href="#" class="list-group-item list-group-item-action"><strong>Hosting</strong>: Managed web hosting</a>
+					<a href="#" class="list-group-item list-group-item-action"><strong>Themes</strong>: Creating your theme</a>
+					<a href="#" class="list-group-item list-group-item-action"><strong>Plugins</strong>: Develop your plugin</a>
+					<a href="#" class="list-group-item list-group-item-action"><strong>Content</strong>: Writing and Podcasts</a>
+				</div>
 			</div>
 		</div>
 		<!--/about-->
 		
 		<!--speakers-->
-		<h1 class="display-4 text-center my-5 text-muted">Speakers</h1>
-		[Speakers bios go here]
+		<h2 id="speakers" class="display-4 text-center my-5 text-muted">Speakers</h2>
+		<div class="row">
+			
+			<div class="col-md-6 col-lg-4">
+				<div class="card mb-3">
+				<img class="card-img-top" src="https://via.placeholder.com/800x450png" alt="Max Faodial">
+					<div class="card-body">
+						<h4 class="card-title">Max Faodial</h4>
+						<p class="card-text">Max is from San Leandro, California. He enjoys hiking and considers himseld a foodie. He found his love for WordPress when he deicded to make his own food review website.</p>
+					</div>
+				</div>
+			</div>
+			
+			<div class="col-md-6 col-lg-4">
+				<div class="card mb-3">
+				<img class="card-img-top" src="https://via.placeholder.com/800x450png" alt="Katie Catrina-Azul">
+					<div class="card-body">
+						<h4 class="card-title">Katie Catrina-Azul</h4>
+						<p class="card-text">Katie was born in Inverness, Scotland but is currently staying in New York City. Her lover for fashion and design led her to start her own WordPress.</p>
+					</div>
+				</div>
+			</div>
+			
+			<div class="col-md-6 col-lg-4">
+				<div class="card mb-3">
+				<img class="card-img-top" src="https://via.placeholder.com/800x450png" alt="Henry Nancio">
+					<div class="card-body">
+						<h4 class="card-title">Henry Nancio</h4>
+						<p class="card=text">Henry is born and rasied in San Antonio, Texas. He has a long background in WooCommerce and Developing Plugins. In his spare time he enjoys spending time with his kids and fishing</p>
+					</div>
+				</div>
+			</div>
+			
+			<div class="col-md-6 col-lg-4">
+				<div class="card mb-3">
+				<img class="card-img-top" src="https://via.placeholder.com/800x450png" alt="Victoria Garnette">
+					<div class="card-body">
+						<h4 class="card-title">Victoria Garnette</h4>
+						<p class="card-text">Victoria currently lives in Lubbuck, Texas. She has a strong passion for Art and Art History, but is most well known for developing excellent content. She has worked with many of the people behind your favorite WordPress sites and Podcasts.</p>
+					</div>
+				</div>
+			</div>
+			
+			<div class="col-md-6 col-lg-4">
+				<div class="card mb-3">
+				<img class="card-img-top" src="https://via.placeholder.com/800x450png" alt="Speaker Name">
+					<div class="card-body">
+						<h4 class="card-title">Carl Tarlington</h4>
+						<p class="card-text">Carl currently resides in the cozy town of Aiken, South Carolina. He has a strong background with WPEngine &amp; Flywheel. When he is not working he enjoys watching histroy documentaries and visting historial landmarks. </p>
+					</div>
+				</div>
+			</div>
+			
+			<div class="col-md-6 col-lg-4">
+				<div class="card mb-3">
+				<img class="card-img-top" src="https://via.placeholder.com/800x450png" alt="Maggie Marron">
+					<div class="card-body">
+						<h4 class="card-title">Maggie Marron</h4>
+						<p class="card-text">Maggie enjoys relaxing on the beaches in her hometown of Sydney, Australia. When she is not on the beach she is running her business that helps others develop personalized themes. She has owned her small-business for 8 years and counting.</p>
+					</div>
+				</div>
+			</div>
+		</div>
 		<!--speakers-->
 		
 		<!--schedule-->
-		<h1 class="display-4 text-center my-5 text-muted">Schedule</h1>
-		[Conference schdeule goes here]
+		<h2 id="schedule" class="display-4 text-center my-5 text-muted">Schedule</h2>
+		<ul class="list-group">
+			<li class="list-group-item">
+				<div class="d-flex justify-content-between">
+					<h5 class="mb-1">Keynote: WordPress 5.0</h5>
+					<span class="badge badge-pill badge-secondary p-2">9:00am</span>
+				</div>
+				<p class="mb-1">Speaker Name</p>
+			</li>
+			
+			<li class="list-group-item">
+				<div class="d-flex justify-content-between">
+					<h5 class="mb-1">WooCommerce Basics</h5>
+					<span class="badge badge-pill badge-secondary p-2">10:00am</span>
+				</div>
+				<p class="mb-1">Speaker Name</p>
+			</li>
+			
+			<li class="list-group-item">
+				<div class="d-flex justify-content-between">
+					<h5 class="mb-1">WPEngine &amp; Flywheel</h5>
+					<span class="badge badge-pill badge-secondary p-2">11:00am</span>
+				</div>
+				<p class="mb-1">Speaker name</p>
+			</li>
+			
+			<li class="list-group-item">
+				<div class="d-flex justify-content-between">
+					<h5 class="mb-1">Lunch &#33;</h5>
+					<span class="badge badge-pill badge-secondary p-2">12:00pm</span>
+				</div>
+				<p class="mb-1">Free pizza for everyone &#33;</p>
+			</li>
+			
+			
+			<li class="list-group-item">
+				<div class="d-flex justify-content-between">
+					<h5 class="mb-1">Creating your Theme</h5>
+					<span class="badge badge-pill badge-secondary p-1">1:00pm</span>
+				</div>
+				<p class="mb-1">Speaker Name</p>
+			</li>
+			
+			<li class="list-group-item">
+				<div class="d-flex justify-content-between">
+					<h5 class="mb-1">Developing a Plugin</h5>
+					<span class="badge badge-pill badge-secondary p-1">2:00pm</span>
+				</div>
+				<p class="mb-1">Speaker Name</p>
+			</li>
+			
+			<li class="list-group-item">
+				<div class="d-flex justify-content-between">
+					<h5 class="mb-1">Creating great Content and Podcasts</h5>
+					<span class="badge badge-pill badge-secondary p-1">3:00pm</span>
+				</div>
+				<p class="mb-1">Speaker Name</p>
+			</li>
+		</ul>
+		
 		<!--/schedule-->
+		
+		<!--callout button-->
+		<button type="button" class="btn-lg d-block mx-auto my-5" data-toggle="modal" data-target="#register">Don't Miss Out, Register Now</button>
+		<!--/callout button-->
 		
 		<!--signup form-->
 		<hr>
@@ -72,6 +241,58 @@
 		<hr>
 		<!--signup form-->
 	</div>
+	  
+	<!-- Modal -->
+	<div class="modal fade" id="register" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+  		<div class="modal-dialog" role="document">
+   			 <div class="modal-content">
+      			<div class="modal-header">
+        			<h5 class="modal-title" id="exampleModalLabel">Register for WordCamp San Antonio</h5>
+        			<button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          			<span aria-hidden="true">&times;</span>
+        			</button>
+      			</div>
+      			<div class="modal-body">
+        ...
+      			</div>
+      				<div class="modal-footer">
+        				<button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+        				<button type="button" class="btn btn-primary">Save changes</button>
+      				</div>
+    		</div>
+  		</div>
+	</div>
+	  
+	<!--footer-->
+	  
+	<div class="row py-3">
+		<div class="col-md-7">
+			<ul class="nav">
+				<li class="nav-item"> 
+					<a class="nav-link" href="#">Community</a>
+				</li>
+				<li class="nav-item">
+					<a class="nav-link" href="#">Tracks</a>
+				</li>
+				<li class="nav-item">
+					<div class="btn-group dropup">
+  						<button type="button" class="btn btn-secondary dropdown-toggle bg-info" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Other Confs</button>
+  						<div class="dropdown-menu">
+   							<a class="dropdown-item" href="#">WordCamp Austin</a>
+							<a class="dropdown-item" href="#">WordCamp Dallas</a>
+							<a class="dropdown-item" href="#">WordCamp Houston</a>
+  						</div>
+					</div>
+
+				</li>
+			</ul>
+		</div>
+		<div class="col-md text-md-right">
+		<small>&copy; 2019 WordCamp &amp; Northwest Vista College</small>
+		</div>	
+	</div>  
+	  
+	<!--/footer-->  
 
     <!-- Optional JavaScript -->
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
