@@ -253,15 +253,117 @@
         			</button>
       			</div>
       			<div class="modal-body">
-        ...
-      			</div>
-      				<div class="modal-footer">
-        				<button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
-        				<button type="button" class="btn btn-primary">Save changes</button>
+					
+					<div class="alert alert-secondary alert-warning alert-dismissible fade show" role="alert">
+  						<strong>Hurry!</strong> Early bird registration ends in two days.
+  						<button type="button" class="close" data-dismiss="alert" aria-label="Close">
+    					<span aria-hidden="true">&times;</span>
+  						</button>
+					</div>
+					
+     				<form>
+						<div class="form-group">
+    						<label for="exampleInput">Name</label>
+    						<input type="name" class="form-control" id="exampleInputName" placeholder="Name">
+  						</div>
+						
+  						<div class="form-group">
+    						<label for="exampleInputEmail1">Email address</label>
+    						<input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Enter email">
+  						</div>
+						
+						<div class="form-group">
+    						<label for="exampleFormControlSelect1">Job Role</label>
+    						<select class="form-control" id="exampleFormControlSelect1">
+      							<option>WordPress Developer</option>
+      							<option>2</option>
+      							<option>3</option>
+      							<option>4</option>
+      							<option>5</option>
+    						</select>
+  						</div>
+						
+				<hr size="2">
+						
+					<h5>Which Topics Insterest You Most?</h5>
+						
+					<div class="form-check">
+  						<input class="form-check-input" type="checkbox" value="" id="plugins">
+  						<label class="form-check-label" for="plugins">WordPress Plugins</label>
+					</div>	
+						
+					<div class="form-check">	
+						<input class="form-check-input" type="checkbox" value="" id="php">
+						<label class="form-check-label" for="php">PHP</label>
+					</div>	
+						
+					<div class="form-check">	
+						<input class="form-check-input" type="checkbox" value="" id="css">
+						<label class="form-check-label" for="css">CSS and Javascript</label>
+					</div>
+						
+					<hr size="2">	
+						
+					<div class="form-row">
+    					<div class="form-group col-md-6">
+      						<label for="inputCard">Card Number:</label>
+      						<input type="text" class="form-control" id="inputCard">
+    					</div>
+    				
+						<div class="form-group col-md-3">
+							<label for="inputZipCode">Zip Code:</label>
+							<input type="text" class="form-control" id="inputzipcode">
+						</div>
+
+						<div class="form-group col-md-3">
+						  <label for="inputCvv">CVV:</label>
+						  <input type="text" class="form-control" id="inputCvv">
+						</div>	
+					</div>
+						
+					<div class="form-row">
+						<div class="col">
+							<label for="inputExpiration">Expiration Date:</label>
+							<select id="inputExpiration" class="form-control">
+								<option selected>1 - January</option>
+								<option>2 - February</option>
+								<option>3 - March</option>
+								<option>4 - April</option>
+								<option>5 - May</option>
+								<option>6 - June</option>
+								<option>7 - July</option>
+								<option>8 - August</option>
+								<option>9 - September</option>
+								<option>10 - October</option>
+								<option>11 - November</option>
+								<option>12 - December</option>
+							</select>
+						</div>
+					
+						<div class="col">
+							<select id="inputMonth" class="form-control">
+								<option selected>2019</option>
+								<option>2020</option>
+								<option>2021</option>
+								<option>2022</option>
+								<option>2023</option>
+							</select>
+						</div>
+						
+						<hr size="2">
+						
+					</div>
+						
+					<div class="modal-footer">
+        				<button type="submit" class="btn btn-primary" >Register</button>
       				</div>
+					
+					</form>	
+							
+      			</div>
+      				
     		</div>
   		</div>
-	</div>
 	  
 	<!--footer-->
 	  
