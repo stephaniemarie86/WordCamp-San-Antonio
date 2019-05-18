@@ -1,20 +1,26 @@
 <!doctype html>
 <html lang="en">
-  <head class="bg-info text-white">
-    <!-- Required meta tags -->
+  <head>
+	  
+    <title>WordCamp San Antonio</title>
+	  
+	 <!-- Required meta tags -->
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-
-    <!-- Bootstrap CSS -->
+	  
+	<!-- Bootstrap CSS -->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+	<link href="https://fonts.googleapis.com/css?family=Roboto&display=swap" rel="stylesheet">
+	<link rel="stylesheet" href="css/styles.css">
 
-    <title>WordCamp San Antonio</title>
+	  
+	  
   </head>
   <body data-spy="scroll" data-target=".navbar" id="home" class="bg-info text-white">
 	  
 	<!--navbar-->
 	  
-	<nav class="navbar navbar-expand-lg navbar-secondary bg-secondary fixed-top">
+	<nav class="navbar navbar-expand-lg navbar-light bg-light fixed-top">
 		<div class="container">
 			<a class="navbar-brand order-1 mr-0 text-white" href="#" target="_blank">Presented by NVC</a>
 			
@@ -45,208 +51,212 @@
 	  
 	<!--jumbotron-->
 	
-	<div class="jumbotron jumbotron-fluid bg-info">
-  		<div class="container text-sm pt-5 bg-info text-center">
-    		<h1 class="display-4">WordCamp San Antonio</h1>
+	<section class="jumbotron jumbotron-fluid">
+  		<div class="container text-sm-center">
+    		<h1 class="display-4">WordCamp<br>San Antonio</h1>
     		<p class="lead">A One-day Conference About WordPress</p>
 			<div class="mt-5">
-				<button type="button" class="btn btn-secondary btn-lg" data-toggle="modal" data-target="#register">Register Now</button>
-				<a class="btn btn-light btn-lg" href="#speakers">See Speakers</a>
+				<button type="button" class="btn btn-light btn-lg" data-toggle="modal" data-target="#register">Register Now</button>
+				<a class="btn btn-info btn-lg" href="#speakers">See Speakers</a>
 			</div>
   		</div>
-	</div>  
+	</section>  
 	  
 	<!--/jumbotron--> 
 	  
 	<div class="container pt-4">
 		
 		<!--about-->
-		<hr size="2">
-		
-		<div class="row">
-			<div class="col-lg order-lg-2">
-				<h3 class="mb-4" id="about">About WordCamp</h3>
-				<img class="img-fluid rounded" src="images/san_antonio_skyline.jpg" alt="Photo of San Antonio, Texas skyline">
-				<p>The great city of San Antonio, Texas will be the host city for the WordCamp!</p>
-				<p>Explore the future of WordPress with a lineup of industry professionals. Discover new techniques to advance your career as a web desinger.</p>
-			</div>
-			<div class="col-lg order-lg-1">
-				<h3 class="mb-4">Expert Speakers</h3>
-				<p>Our expert speakers lineup was just announces, so don't wait too long before grabbing your tickets!</p>
-				<p>Want to meet the international WordPress community and share skills with some of the world's top experts and makers? Be the first to know what to expect for the future of WordPress.</p>
-				<p>WordCamp is committed to being inclusive and welcoming for everyone. We look forwarf to another intensive day of learning and sharing.</p>
-			</div>
-			<div class="col-lg order-lg-3">
-				<h3 class="mb-4">What You'll Learn</h3>
-				<div class="list-group">
-					<a href="#" class="list-group-item list-group-item-action"><strong>WordPress 5</strong>: New Gutenberg editor</a>
-					<a href="#" class="list-group-item list-group-item-action"><strong>WooCommerce</strong>: E-commerece platform</a>
-					<a href="#" class="list-group-item list-group-item-action"><strong>Hosting</strong>: Managed web hosting</a>
-					<a href="#" class="list-group-item list-group-item-action"><strong>Themes</strong>: Creating your theme</a>
-					<a href="#" class="list-group-item list-group-item-action"><strong>Plugins</strong>: Develop your plugin</a>
-					<a href="#" class="list-group-item list-group-item-action"><strong>Content</strong>: Writing and Podcasts</a>
+			<section class="section-about" id="about">
+				<div class="contianer">
+					<div id="about" class="row row-about">
+						<div class="col-lg order-lg-2 col-about">
+							<h3 class="mb-4">About WordCamp</h3>
+							<img class="img-fluid rounded d-none d-sm-block" src="images/san_antonio_skyline.jpg" alt="Photo of San Antonio, Texas skyline">
+							<p>The great city of San Antonio, Texas will be the host city for the WordCamp!</p>
+							<p>Explore the future of WordPress with a lineup of industry professionals. Discover new techniques to advance your career as a web desinger.</p>
+						</div>
+						<div class="col-lg order-lg-1 col-speakers">
+							<h3 class="mb-4">Expert Speakers</h3>
+							<p>Our expert speakers lineup was just announces, so don't wait too long before grabbing your tickets!</p>
+							<p>Want to meet the international WordPress community and share skills with some of the world's top experts and makers? Be the first to know what to expect for the future of WordPress.</p>
+							<p>WordCamp is committed to being inclusive and welcoming for everyone. We look forwarf to another intensive day of learning and sharing.</p>
+						</div>
+						<div class="col-lg order-lg-3 col-topics">
+							<h3 class="mb-4">What You'll Learn</h3>
+							<div class="list-group">
+								<a href="#" class="list-group-item list-group-item-action"><strong>WordPress 5</strong>: New Gutenberg editor</a>
+								<a href="#" class="list-group-item list-group-item-action"><strong>WooCommerce</strong>: E-commerece platform</a>
+								<a href="#" class="list-group-item list-group-item-action"><strong>Hosting</strong>: Managed web hosting</a>
+								<a href="#" class="list-group-item list-group-item-action"><strong>Themes</strong>: Creating your theme</a>
+								<a href="#" class="list-group-item list-group-item-action"><strong>Plugins</strong>: Develop your plugin</a>
+								<a href="#" class="list-group-item list-group-item-action"><strong>Content</strong>: Writing and Podcasts</a>
+							</div>
+						</div>
+					</div>
 				</div>
-			</div>
-		</div>
+		</section>
 		<!--/about-->
 		
 		<!--speakers-->
-		
-		<hr size="2">
-		
-		
-		<h2 id="speakers" class="display-4 text-center my-5 text-white">Speakers</h2>
-		<div class="row">
-			
+		<section class="section-speakers" id="speakers">
+		  <svg id="" preserveAspectRatio="xMidYMax meet" class="svg-separator sep1" viewBox="0 0 1600 100" style="" data-height="100">
+			<path class="wave-end" d="M1040,56c0.5,0,1,0,1.6,0c-16.6-8.9-36.4-15.7-66.4-15.7c-56,0-76.8,23.7-106.9,41C881.1,89.3,895.6,96,920,96 C979.5,96,980,56,1040,56z"></path>
+			<path class="wave-end" d="M1699.8,96l0,10H1946l-0.3-6.9c0,0,0,0-88,0s-88.6-58.8-176.5-58.8c-51.4,0-73,20.1-99.6,36.8 c14.5,9.6,29.6,18.9,58.4,18.9C1699.8,96,1699.8,96,1699.8,96z"></path>
+			<path class="wave-end" d="M1400,96c19.5,0,32.7-4.3,43.7-10c-35.2-17.3-54.1-45.7-115.5-45.7c-32.3,0-52.8,7.9-70.2,17.8 c6.4-1.3,13.6-2.1,22-2.1C1340.1,56,1340.3,96,1400,96z"></path>
+			<path class="wave-end" d="M320,56c6.6,0,12.4,0.5,17.7,1.3c-17-9.6-37.3-17-68.5-17c-60.4,0-79.5,27.8-114,45.2 c11.2,6,24.6,10.5,44.8,10.5C260,96,259.9,56,320,56z"></path>
+			<path class="wave-end" d="M680,96c23.7,0,38.1-6.3,50.5-13.9C699.6,64.8,679,40.3,622.2,40.3c-30,0-49.8,6.8-66.3,15.8 c1.3,0,2.7-0.1,4.1-0.1C619.7,56,620.2,96,680,96z"></path>
+			<path class="wave-end" d="M-40,95.6c28.3,0,43.3-8.7,57.4-18C-9.6,60.8-31,40.2-83.2,40.2c-14.3,0-26.3,1.6-36.8,4.2V106h60V96L-40,95.6 z"></path>
+			<path class="wave-middle" d="M504,73.4c-2.6-0.8-5.7-1.4-9.6-1.4c-19.4,0-19.6,13-39,13c-19.4,0-19.5-13-39-13c-14,0-18,6.7-26.3,10.4 C402.4,89.9,416.7,96,440,96C472.5,96,487.5,84.2,504,73.4z"></path>
+			<path class="wave-middle" d="M1205.4,85c-0.2,0-0.4,0-0.6,0c-19.5,0-19.5-13-39-13s-19.4,12.9-39,12.9c0,0-5.9,0-12.3,0.1 c11.4,6.3,24.9,11,45.5,11C1180.6,96,1194.1,91.2,1205.4,85z"></path>
+			<path class="wave-middle" d="M1447.4,83.9c-2.4,0.7-5.2,1.1-8.6,1.1c-19.3,0-19.6-13-39-13s-19.6,13-39,13c-3,0-5.5-0.3-7.7-0.8 c11.6,6.6,25.4,11.8,46.9,11.8C1421.8,96,1435.7,90.7,1447.4,83.9z"></path>
+			<path class="wave-middle" d="M985.8,72c-17.6,0.8-18.3,13-37,13c-19.4,0-19.5-13-39-13c-18.2,0-19.6,11.4-35.5,12.8 c11.4,6.3,25,11.2,45.7,11.2C953.7,96,968.5,83.2,985.8,72z"></path>
+			<path class="wave-middle" d="M743.8,73.5c-10.3,3.4-13.6,11.5-29,11.5c-19.4,0-19.5-13-39-13s-19.5,13-39,13c-0.9,0-1.7,0-2.5-0.1 c11.4,6.3,25,11.1,45.7,11.1C712.4,96,727.3,84.2,743.8,73.5z"></path>
+			<path class="wave-middle" d="M265.5,72.3c-1.5-0.2-3.2-0.3-5.1-0.3c-19.4,0-19.6,13-39,13c-19.4,0-19.6-13-39-13 c-15.9,0-18.9,8.7-30.1,11.9C164.1,90.6,178,96,200,96C233.7,96,248.4,83.4,265.5,72.3z"></path>
+			<path class="wave-middle" d="M1692.3,96V85c0,0,0,0-19.5,0s-19.6-13-39-13s-19.6,13-39,13c-0.1,0-0.2,0-0.4,0c11.4,6.2,24.9,11,45.6,11 C1669.9,96,1684.8,96,1692.3,96z"></path>
+			<path class="wave-middle" d="M25.5,72C6,72,6.1,84.9-13.5,84.9L-20,85v8.9C0.7,90.1,12.6,80.6,25.9,72C25.8,72,25.7,72,25.5,72z"></path>
+			<path class="wave-top" d="M-40,95.6C20.3,95.6,20.1,56,80,56s60,40,120,40s59.9-40,120-40s60.3,40,120,40s60.3-40,120-40 s60.2,40,120,40s60.1-40,120-40s60.5,40,120,40s60-40,120-40s60.4,40,120,40s59.9-40,120-40s60.3,40,120,40s60.2-40,120-40 s60.2,40,120,40s59.8,0,59.8,0l0.2,143H-60V96L-40,95.6z"></path>
+		</svg>
+		<div class="container">
+			<h2>Speakers</h2>
+			<div class="row">
 			<div class="col-md-6 col-lg-4">
-				<div class="card mb-3 bg-light border-light">
+				<div class="card card-1">
 				<img class="card-img-top" src="images/max.jpg" alt="Max Faodial">
-					<div class="card-body bg-light border-light">
-						<h4 class="card-title text-dark"><strong>Max Faodial</strong></h4>
-						<p class="card-text text-dark">Max is from San Leandro, California. He enjoys hiking and considers himseld a foodie. He found his love for WordPress when he deicded to make his own food review website.</p>
+					<div class="card-body">
+						<h4 class="card-title"><strong>Max Faodial</strong></h4>
+						<p class="card-text">Max is from San Leandro, California. He enjoys hiking and considers himseld a foodie. He found his love for WordPress when he deicded to make his own food review website.</p>
 					</div>
 				</div>
 			</div>
 			
 			<div class="col-md-6 col-lg-4">
-				<div class="card mb-3">
+				<div class="card card-2">
 				<img class="card-img-top" src="images/katie.jpg" alt="Katie Catrina-Azul">
 					<div class="card-body">
-						<h4 class="card-title text-dark"><strong>Katie Catrina-Azul</strong></h4>
-						<p class="card-text text-dark">Katie was born in Inverness, Scotland but is currently staying in New York City. Her lover for fashion and design led her to start her own WordPress.</p>
+						<h4 class="card-title"><strong>Katie Catrina-Azul</strong></h4>
+						<p class="card-text">Katie was born in Inverness, Scotland but is currently staying in New York City. Her lover for fashion and design led her to start her own WordPress.</p>
 					</div>
 				</div>
 			</div>
 			
 			<div class="col-md-6 col-lg-4">
-				<div class="card mb-3">
+				<div class="card card-3">
 				<img class="card-img-top" src="images/charlie.jpg" alt="Henry Nancio">
 					<div class="card-body">
-						<h4 class="card-title text-dark"><strong>Henry Nancio</strong></h4>
-						<p class="card=text text-dark">Henry is born and rasied in San Antonio, Texas. He has a long background in WooCommerce and Developing Plugins. In his spare time he enjoys spending time with his kids and fishing</p>
+						<h4 class="card-title"><strong>Henry Nancio</strong></h4>
+						<p class="card=text">Henry is born and rasied in San Antonio, Texas. He has a long background in WooCommerce and Developing Plugins. In his spare time he enjoys spending time with his kids and fishing</p>
 					</div>
 				</div>
 			</div>
 			
 			<div class="col-md-6 col-lg-4">
-				<div class="card mb-3">
+				<div class="card card-4">
 				<img class="card-img-top" src="images/toria.jpg" alt="Victoria Garnette">
 					<div class="card-body">
-						<h4 class="card-title text-dark"><strong>Victoria Garnette</strong></h4>
-						<p class="card-text text-dark">Victoria currently lives in Lubbuck, Texas. She has a strong passion for Art and Art History, but is most well known for developing excellent content. She has worked with many of the people behind your favorite WordPress sites and Podcasts.</p>
+						<h4 class="card-title"><strong>Victoria Garnette</strong></h4>
+						<p class="card-text">Victoria currently lives in Lubbuck, Texas. She has a strong passion for Art and Art History, but is most well known for developing excellent content. She has worked with many of the people behind your favorite WordPress sites and Podcasts.</p>
 					</div>
 				</div>
 			</div>
 			
 			<div class="col-md-6 col-lg-4">
-				<div class="card mb-3">
+				<div class="card card-5">
 				<img class="card-img-top" src="images/sweet.jpg" alt="Speaker Name">
 					<div class="card-body">
-						<h4 class="card-title text-dark"><strong>Carl Tarlington</strong></h4>
-						<p class="card-text text-dark">Carl currently resides in the cozy town of Aiken, South Carolina. He has a strong background with WPEngine &amp; Flywheel. When he is not working he enjoys watching histroy documentaries and visting historial landmarks. </p>
+						<h4 class="card-title"><strong>Carl Tarlington</strong></h4>
+						<p class="card-text">Carl currently resides in the cozy town of Aiken, South Carolina. He has a strong background with WPEngine &amp; Flywheel. When he is not working he enjoys watching histroy documentaries and visting historial landmarks. </p>
 					</div>
 				</div>
 			</div>
 			
 			<div class="col-md-6 col-lg-4">
-				<div class="card mb-3">
+				<div class="card card-6">
 				<img class="card-img-top" src="images/maggie.jpg" alt="Maggie Marron">
 					<div class="card-body">
-						<h4 class="card-title text-dark"><strong>Maggie Marron</strong></h4>
-						<p class="card-text text-dark">Maggie enjoys relaxing on the beaches in her hometown of Sydney, Australia. When she is not on the beach she is running her business that helps others develop personalized themes. She has owned her small-business for 8 years and counting.</p>
+						<h4 class="card-title"><strong>Maggie Marron</strong></h4>
+						<p class="card-text">Maggie enjoys relaxing on the beaches in her hometown of Sydney, Australia. When she is not on the beach she is running her business that helps others develop personalized themes. She has owned her small-business for 8 years and counting.</p>
 					</div>
 				</div>
 			</div>
 		</div>
-		<!--speakers-->
+		<!--/speakers-->
 		
+			
 		<!--schedule-->
-		<h2 id="schedule" class="display-4 text-center my-5 text-light">Schedule</h2>
-		<ul class="list-group">
+		<section class="section-schedule" id="schedule">
+			<div class="container">
+				<h2>Schedule</h2>
+				<ul class="list-group">
+					<li class="list-group-item">
+						<div class="d-flex justify-content-between">
+							<h5 class="mb-1">Keynote: WordPress 5.0</h5>
+							<span class="badge badge-pill badge-primary p-2">9:00am</span>
+						</div>
+						<p class="mb-1">Max Faodial</p>
+					</li>
+			
 			<li class="list-group-item">
 				<div class="d-flex justify-content-between">
-					<h5 class="mb-1 text-dark">Keynote: WordPress 5.0</h5>
-					<span class="badge badge-pill badge-secondary p-2">9:00am</span>
+					<h5 class="mb-1">WooCommerce Basics</h5>
+					<span class="badge badge-pill badge-primary p-2">10:00am</span>
 				</div>
-				<p class="mb-1 text-secondary">Max Faodial</p>
+				<p class="mb-1">Henry Nancio</p>
 			</li>
 			
 			<li class="list-group-item">
 				<div class="d-flex justify-content-between">
-					<h5 class="mb-1 text-dark">WooCommerce Basics</h5>
-					<span class="badge badge-pill badge-secondary p-2">10:00am</span>
+					<h5 class="mb-1">WPEngine &amp; Flywheel</h5>
+					<span class="badge badge-pill badge-primary p-2">11:00am</span>
 				</div>
-				<p class="mb-1 text-secondary">Henry Nancio</p>
+				<p class="mb-1">Carl Tarlington</p>
 			</li>
 			
 			<li class="list-group-item">
 				<div class="d-flex justify-content-between">
-					<h5 class="mb-1 text-dark">WPEngine &amp; Flywheel</h5>
-					<span class="badge badge-pill badge-secondary p-2">11:00am</span>
+					<h5 class="mb-1">Lunch &#33;</h5>
+					<span class="badge badge-pill badge-primary p-2">12:00pm</span>
 				</div>
-				<p class="mb-1 text-secondary">Carl Tarlington</p>
-			</li>
-			
-			<li class="list-group-item">
-				<div class="d-flex justify-content-between">
-					<h5 class="mb-1 text-dark">Lunch &#33;</h5>
-					<span class="badge badge-pill badge-secondary p-2">12:00pm</span>
-				</div>
-				<p class="mb-1 text-secondary">Free pizza for everyone &#33;</p>
+				<p class="mb-1">Free pizza for everyone &#33;</p>
 			</li>
 			
 			
 			<li class="list-group-item">
 				<div class="d-flex justify-content-between">
-					<h5 class="mb-1 text-dark">Creating your Theme</h5>
-					<span class="badge badge-pill badge-secondary p-1">1:00pm</span>
+					<h5 class="mb-1">Creating your Theme</h5>
+					<span class="badge badge-pill badge-primary p-1">1:00pm</span>
 				</div>
-				<p class="mb-1 text-secondary">Katie Catrina-Azul</p>
+				<p class="mb-1">Katie Catrina-Azul</p>
 			</li>
 			
 			<li class="list-group-item">
 				<div class="d-flex justify-content-between">
-					<h5 class="mb-1 text-dark">Developing a Plugin</h5>
-					<span class="badge badge-pill badge-secondary p-1">2:00pm</span>
+					<h5 class="mb-1">Developing a Plugin</h5>
+					<span class="badge badge-pill badge-primary p-1">2:00pm</span>
 				</div>
-				<p class="mb-1 text-secondary">Maggie Marron</p>
+				<p class="mb-1">Maggie Marron</p>
 			</li>
 			
 			<li class="list-group-item">
 				<div class="d-flex justify-content-between">
-					<h5 class="mb-1 text-dark">Creating great Content and Podcasts</h5>
-					<span class="badge badge-pill badge-secondary p-1">3:00pm</span>
+					<h5 class="mb-1">Creating great Content and Podcasts</h5>
+					<span class="badge badge-pill badge-primary p-1">3:00pm</span>
 				</div>
-				<p class="mb-1 text-secondary">Victoria Garnette</p>
+				<p class="mb-1">Victoria Garnette</p>
 			</li>
 		</ul>
-		
+	</div>
+			</section>
 		<!--/schedule-->
 		
 		<!--callout button-->
-		<button type="button" class="btn-lg d-block mx-auto my-5" data-toggle="modal" data-target="#register">Don't Miss Out, Register Now</button>
+		<section class="section-cta">
+			<div class="container">
+				<button type="button" class=" btn btn-lg d-block mx-auto" data-toggle="modal" data-target="#register">Don't Miss Out, Register Now</button>
+			</div>
+		</section>
 		<!--/callout button-->
-		
-		<!--signup form-->
-		<hr>
-		<div class="row ply-4 text-muted">
-			<div class="col-md col-xl-5">
-			<p class="text-dark"><strong>About Northwest Vista College</strong></p>
-			<p class="text-white">Northwest Vista College bring affordable technology education to people everywhere to help them achieve their dreams and change the world</p>
-			</div>
-			<div class="col-md col-xl-5 ml-auto">
-				<p class="text-dark"><strong>Stay up-to-date on WordCamp</strong></p>
-				<div class="input-group mb-3">
-					<input type="text" class="form-control" placeholder="Email" aria-label="Email" aria-describedby="button-addon2">
-					<div class="input-group-append">
-						<button class="btn btn-secondary" type="button" id="button-addon2">Sign Up</button>
-					</div>
-				</div>
-			</div>
-		</div>
-		<hr>
-		<!--signup form-->
-	</div>
+	
 	  
 	<!-- Modal -->
 	<div class="modal fade" id="register" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
@@ -372,34 +382,56 @@
   		</div>
 	  
 	<!--footer-->
-	  
-	<div class="row py-3">
-		<div class="col-md-7">
-			<ul class="nav">
-				<li class="nav-item"> 
-					<a class="nav-link" href="#">Community</a>
-				</li>
-				<li class="nav-item">
-					<a class="nav-link" href="#">Tracks</a>
-				</li>
-				<li class="nav-item">
-					<div class="btn-group dropup">
-  						<button type="button" class="btn btn-secondary dropdown-toggle bg-info" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Other Confs</button>
-  						<div class="dropdown-menu">
-   							<a class="dropdown-item" href="#">WordCamp Austin</a>
-							<a class="dropdown-item" href="#">WordCamp Dallas</a>
-							<a class="dropdown-item" href="#">WordCamp Houston</a>
-  						</div>
+	<section class="section-footer">  
+		<div class="container">
+			
+			<!--signup form-->
+			<div class="row py-4">
+				<div class="col-md col-xl-5">
+				<p><strong>About Northwest Vista College</strong></p>
+				<p>Northwest Vista College brings affordable technology education to people everywhere to help them achieve their dreams and change the world.</p>
+				</div>
+				<div class="col-md col-xl-5 ml-auto">
+					<p><strong>Stay up-to-date on WordCamp</strong></p>
+					<div class="input-group mb-3">
+						<input type="text" class="form-control" placeholder="Email" aria-label="Email" aria-describedby="button-addon2">
+						<div class="input-group-append">
+							<button class="btn btn-info" type="button" id="button-addon2">Sign Up</button>
+						</div>
 					</div>
-
-				</li>
-			</ul>
-		</div>
-		<div class="col-md text-md-right">
-		<small>&copy; 2019 WordCamp &amp; Northwest Vista College</small>
-		</div>	
-	</div>  
-	  
+				</div>
+			</div>
+			<!--/sign up form-->
+			<div class="row py-3">
+          		<div class="col-md-7">
+            		<ul class="nav">
+					  <li class="nav-item">
+						<a class="nav-link" href="#">Community</a>
+					  </li>
+					  <li class="nav-item">
+						<a class="nav-link" href="#">Tracks</a>
+					  </li>
+					  <li class="nav-item">
+						<div class="btn-group dropup">
+						  <button type="button" class="btn btn-outline-secondary">Other Confs</button>
+						  <button type="button" class="btn btn-outline-secondary dropdown-toggle dropdown-toggle-split" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+							<span class="sr-only">Toggle Dropdown</span>
+						  </button>
+						  <div class="dropdown-menu">
+							<a class="dropdown-item" href="#">JS Conf</a>
+							<a class="dropdown-item" href="#">CSS Conf</a>
+							<a class="dropdown-item" href="#">PHP Conf</a>
+						  </div>
+						</div>
+					  </li>
+            		</ul>
+          		</div>
+          <div class="col-md text-md-right">
+            <small>&copy; 2019 WordCamp &amp; Northwest Vista College</small>
+          </div>
+        </div>
+	</div>
+ </section>
 	<!--/footer-->  
 
     <!-- Optional JavaScript -->
